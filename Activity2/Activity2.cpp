@@ -26,8 +26,7 @@ int main() {
         cout << "4. Exit" << endl;
 
         cout << "Masukkan pilihan : ";
-        cin >> pilihan
-
+        cin >> pilihan;
 
             switch (pilihan) {
             case 1:
@@ -55,3 +54,5 @@ int main() {
                 cout << "pilihan salah !";
                 break;
             }
+    } while (pilihan != 4);
+}
