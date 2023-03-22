@@ -42,3 +42,10 @@ int main() {
                 cin >> jejari;
                 cout << "\nLuas Lingkaran = " << LuasLingkaran(jejari);
                 break;
+            case 3:
+                cout << "Masukkan alas = ";
+                cin >> alas;
+                cout << "Masukkan tinggi = ";
+                cin >> tinggi;
+                cout << "\nLuas Segitiga = " << LuasSegitiga(alas, tinggi);
+                break;
