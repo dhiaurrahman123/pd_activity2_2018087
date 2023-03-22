@@ -49,3 +49,9 @@ int main() {
                 cin >> tinggi;
                 cout << "\nLuas Segitiga = " << LuasSegitiga(alas, tinggi);
                 break;
+            case 4:
+                break;
+            default:
+                cout << "pilihan salah !";
+                break;
+            }
